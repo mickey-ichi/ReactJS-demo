@@ -1,4 +1,4 @@
-var TodoApp = React.createClass({
+var TodoApp     = React.createClass({
 
     getInitialState: function () {
         return {
@@ -43,3 +43,4 @@ var TodoApp = React.createClass({
         );
     }
 });
+module.exports  = TodoApp;

@@ -21,6 +21,7 @@ var TodoList = React.createClass({
         );
     }
 });
+
 var Todo = React.createClass({
 
     handleDelete: function (event) {
@@ -43,3 +44,5 @@ var Todo = React.createClass({
     }
 
 });
+
+module.exports  = TodoList;

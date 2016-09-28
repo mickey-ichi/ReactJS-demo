@@ -1,3 +1,2 @@
-var Content  = require("./content.js");
-var stylecss = require("./style.css");
-document.write(Content);
+var app =  require('./build/app.js');
+console.log(app);
